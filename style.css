@@ -264,12 +264,12 @@ hr {
     .feature-content{
         text-align: center;
         padding:0px;
-        width:80%;
+        width:100%;
         margin-bottom: 10px;
     }
-    /* .feature-content img{
-        width: 10%;
-    } */
+    .feature-content img{
+        width: 100%;
+    }
     .collection {
         padding: 0px;
     }
