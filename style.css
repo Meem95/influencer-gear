@@ -196,3 +196,48 @@ hr {
     border-radius: 50%;
     padding-top: 5px;
 }
+
+@media screen and (max-width:576px) {
+    .navbar
+    {
+        flex-direction: column;
+        padding:20px 0px;
+    }
+    .menu > ul{
+        display:none;
+    }
+    .nav-title{
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-img {
+        margin-top: 0px;
+    }
+    .sponsor-img{
+        flex-direction: column;
+        justify-content: space-evenly;
+     
+    }
+    .collection-body{
+        flex-direction: column;
+        grid-template-columns:  1fr;
+    }
+    .feature-body{
+        flex-direction: column-reverse;
+    }
+    .features-img{
+        width: 70%;
+        text-align: center;
+    }
+}
+@media screen and( (min-width:576px) and (max-width:960px)){
+    .navbar{
+        flex-direction: column;
+        padding:30px 0px;
+    }
+    .menu > ul{
+        display:none;
+    }
+}
