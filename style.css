@@ -211,7 +211,6 @@ hr {
     }
     .banner{
         flex-direction: column-reverse;
-        /* display: none; */
     }
     .banner-img {
         margin-top: 0px;
@@ -250,19 +249,20 @@ hr {
         grid-template-columns:  1fr;
     }
     .features-img{
-        text-align: center;
+        align-items: center;
         width: 100%;
     }
     .feature-content{
         text-align: center;
-        width: 100%;
-        
+        padding:0px;
+        width:80%;
+        margin-bottom: 10px;
     }
     .feature-content img{
         width: 100%;
     }
     .collection {
-        padding: 20px;
+        padding: 0px;
     }
     
 }
