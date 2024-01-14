@@ -229,6 +229,7 @@ hr {
     }
     .banner-content{
         margin-left: 0px;
+        padding: 0px 80px;
     
     }
     .btn-primary {
@@ -237,8 +238,16 @@ hr {
         
     }
     .sponsor-img{
-        flex-direction: column;
-        justify-content: space-evenly;
+        display: grid;
+        flex-direction:row;
+        margin: 0px;
+        padding: 1rem;
+        grid-template-columns: repeat(4 ,1fr);
+     
+    }
+    .sponsor-img img{
+        margin: 10px;
+       
      
     }
     .collection-body{
@@ -247,7 +256,6 @@ hr {
     }
     .feature-body{
         flex-direction: column-reverse;
-        grid-template-columns:  1fr;
     }
     .features-img{
         align-items: center;
