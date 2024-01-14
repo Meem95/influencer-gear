@@ -214,6 +214,7 @@ hr {
     }
     .banner-img {
         margin-top: 0px;
+        width: 100%;
     }
     .banner-img img{
         width: 100%;
