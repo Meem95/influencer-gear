@@ -22,7 +22,6 @@ main{
     color:#FFFFFF;
     font-size: 16px;
     font-weight: 700;
-
 }
 hr {
     display: block;
@@ -217,6 +216,9 @@ hr {
     .banner-img {
         margin-top: 0px;
     }
+    .banner-img img{
+        width: 100%;
+    }
     .banner-title {
         font-size: 26px;
         text-align: center;
@@ -225,8 +227,14 @@ hr {
         font-size: 14px;
         text-align: center;
     }
-    .btn-primary{
+    .banner-content{
+        margin-left: 0px;
+    
+    }
+    .btn-primary {
         text-align: center;
+    
+        
     }
     .sponsor-img{
         flex-direction: column;
@@ -239,18 +247,22 @@ hr {
     }
     .feature-body{
         flex-direction: column-reverse;
+        grid-template-columns:  1fr;
     }
     .features-img{
-        width: 100%;
         text-align: center;
+        width: 100%;
     }
-    .feature-content {
-        width: 100%;
-        padding: 10px 30px;
+    .feature-content{
         text-align: center;
+        width: 100%;
+        
+    }
+    .feature-content img{
+        width: 100%;
     }
     .collection {
-        padding: 0px 20px;
+        padding: 20px;
     }
     
 }
