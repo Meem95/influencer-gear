@@ -231,6 +231,11 @@ hr {
         width: 70%;
         text-align: center;
     }
+    .feature-content {
+        width: 70%;
+        padding: 10px 33px;
+        text-align: center;
+    }
 }
 @media screen and( (min-width:576px) and (max-width:960px)){
     .navbar{
